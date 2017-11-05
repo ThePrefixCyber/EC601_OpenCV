@@ -1,0 +1,24 @@
+1. In most cases, the threshold is an intensity value, above which pixels are treated as white,
+and below which pixels are treated as white.  Specific descriptions are below:
+
+Threshold Truncaded:
+Shifts the entire image towards a lower (darker) intensity level. 
+
+Binary Threshold:
+Send every pixel in the image to black or white, depending on whether it is above or below
+some specified threshold
+
+Band Theshold:
+Sends every pixel with an intensity value outside of a given range to black, and sends
+pixels inside that band to white.  
+
+Semi Thresholding:
+Sends pixels that are relatively close to black or white to 0 or 255, and medium intensity
+pixels are scaled towards 0 and 255 to make up the vacated space in the intensity spectrum
+
+
+2. Binary Thresholding destroys all shades of gray.  Everything is sent to black or white and
+any smaller variations are lost.  
+
+
+3. Adaptive Thresholding uses the local area around a picture to determine an best threshold to use with this pixel.  This is useful when there is shading variation across a surface.  

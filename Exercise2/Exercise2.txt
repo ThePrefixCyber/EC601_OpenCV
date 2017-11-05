@@ -1,0 +1,11 @@
+red: 156
+green: 165
+blue: 102
+y: 155
+cb: 129
+cr: 98
+h: 34
+s: 97
+v: 165
+
+All values are between 0 and 255

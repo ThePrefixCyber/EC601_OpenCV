@@ -1,0 +1,3 @@
+The median filter seems to work best for salt and pepper noise.  The 3x3 filter size works best because it retains most of the information from the original image.  
+
+For gaussian noise, the gaussian filter seems to produce slightly better result than the box filter, and the median filter produces the worst results.  For gaussian noise with the gaussian filter, there is less of a difference between the different filter sizes, although the 3x3 filter still seems to work at least as well as the 7x7 filter.  

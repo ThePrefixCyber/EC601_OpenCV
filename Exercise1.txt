@@ -1,0 +1,1 @@
+The cvMat* cvCreateMat() function creates a pointer to the first address of a two dimensional array, and then allocates the space for the array.  The elements of the array are objects of the specified type.  The array is arranged in the same way (rows, columns) that the pixels of the image are arranged.  
